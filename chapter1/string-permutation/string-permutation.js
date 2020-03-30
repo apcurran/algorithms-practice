@@ -8,5 +8,12 @@ function strPermutation(str1, str2) {
         .sort()
         .join("");
 
-    return sortedStr1;
+    const sortedStr2 = str2
+        .split("")
+        .sort()
+        .join("");
+
+    return sortedStr1 === sortedStr2;
 }
+
+module.exports = strPermutation;

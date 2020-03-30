@@ -6,4 +6,4 @@ function uniqueChars(str) {
     return uniqueCharArr.join("");
 }
 
-console.log(uniqueChars("abccccdde")); // "abcde"
+module.exports = uniqueChars;
