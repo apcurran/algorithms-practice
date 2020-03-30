@@ -1,0 +1,22 @@
+{
+  "name": "algorithm-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apcurran/algorithms-practice.git"
+  },
+  "author": "Alex Curran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apcurran/algorithms-practice/issues"
+  },
+  "homepage": "https://github.com/apcurran/algorithms-practice#readme",
+  "devDependencies": {
+    "jest": "^25.2.4"
+  }
+}
