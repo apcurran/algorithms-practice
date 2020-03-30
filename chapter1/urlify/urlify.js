@@ -24,4 +24,4 @@ function urlify2(str, strLength) {
     return newStr;
 }
 
-console.log(urlify('Mr John Smith    ', 13)) // Mr%20John%20Smith
+module.exports = urlify;
