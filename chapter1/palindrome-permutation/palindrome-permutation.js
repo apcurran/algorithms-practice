@@ -1,3 +1,5 @@
+// Create a function to check if a given string is a permutation of a palindrome.
+
 function palindromePermutation(str) {
     let charsMap = new Map();
     let charCount = 0;
