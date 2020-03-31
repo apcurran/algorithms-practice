@@ -9,6 +9,7 @@ function compressStr(str) {
 
         if (i + 1 >= str.length || str.charAt(i) !== str.charAt(i + 1)) {
             newStr += String(str.charAt(i)) + String(charFrequency);
+            // Reset the letter freqency for the next letter sequence.
             charFrequency = 0;
         }
     }
