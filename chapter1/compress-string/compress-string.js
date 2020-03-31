@@ -1,3 +1,5 @@
+// Compress a string into a shorter string that counts the occurrences of each letter.
+
 function compressStr(str) {
     let newStr = "";
     let charFrequency = 0;
@@ -11,6 +13,7 @@ function compressStr(str) {
         }
     }
 
+    // Shorter? Then, return the new string. Otherwise, return the original string.
     if (newStr.length < str.length) {
         return newStr;
     }
